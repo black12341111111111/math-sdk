@@ -17,7 +17,7 @@ if __name__ == "__main__":
     profiling = False
 
     num_sim_args = {
-        "base": int(100),  # Reduced for testing
+        "base": int(1e4),
     }
 
     run_conditions = {

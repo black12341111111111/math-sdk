@@ -1,29 +1,29 @@
-__pycache__
-*/.pyc
-*.prof
-*/setup.txt
-*/setup.toml
+# Math SDK Project - external clone
+math_sdk_project/
+
+# Web SDK Project - external clone
+web_sdk_project/
+
+# Temporary assets
+temp_assets/
+
+# Deployment package
+deployment/
+SUBMISSION_PACKAGE.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+env/
+venv/
 *.egg-info/
-*/SOURCES.txt
 
-**/library/**
-**/configs/*
-**/forces/*
-**/books/*
-**/lookup_tables/*
-**/books_compressed/*
-**temp_multi_threaded_files
+# Node
+node_modules/
+dist/
+.pnpm-store/
 
-
-**/target/*
-**/debug/*
-**release/*
-**/optimization_files/**
-
-/env
-*.env
-*.DS_Store
-*.toml
-
-**/site/*
-
+# Build artifacts
+library/
+*.zst
